@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+    body {
+    background-color: rgb(186, 183, 10);
+    border-top: 100px ;
+    margin: auto;
+}
+.grid {
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin: 200px;
+    align-items: center;
+    grid-gap: 50px;
+}
+.img{
+  object-fit: cover;
+}
+.grid > article{
+  box-shadow: 10px 10px 5px 0px black;
+  border-radius: 20px;
+  text-align: center;
+  background: palevioletred;
+  width: 300px;
+  transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.grid > article img{
+  border-top-left-radius: 30px;
+  border-top-right-radius: 30px;
+
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <main class="grid">
+      <article>
+        <img src="Asset/IMG_20231028_160908 copy.jpg" width="300px" height="300px">
+        <div class="konten">
+          <h2>SALPA.ID</h2>
+          <p>Sayuran Alahan Panjang Lansung Dari Petani.</p>
+        </div>
+      </article>
+      <article>
+        <img src="Asset/IMG_20231028_160908.jpg" width="300px" height="300px">
+        <div class="konten">
+          <h2>SAYUR BOS</h2>
+          <p>Sayuyan murni dan dan.</p>
+        </div>
+      </article>
+      <article>
+        <img src="Asset/IMG_20231028_160930.jpg" width="300px" height="300px"
+        <div class="konten"> 
+          <h2>SAYUR SAYURAN</h2>
+          <P>Sayuran Alahan Panjang Layak</P>
+        </div>
+      </article>
+    </main> 
+  </div> 
+</body>
+</html>
